@@ -1,3 +1,6 @@
+
+#FIRST CREATE THE DATABASE 'oec_users'
+
 schema = [
     """
     CREATE TABLE users(
