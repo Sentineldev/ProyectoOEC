@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3d79f4ca.css",
-    "main.js": "/static/js/main.61eb26e4.js",
+    "main.js": "/static/js/main.9b1c5c02.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
     "static/media/wallpaperbetter.com_1366x768 (1).jpg": "/static/media/wallpaperbetter.com_1366x768 (1).d920c4dc3bf32410672f.jpg",
     "static/media/wallpaperbetter.com_1366x768.jpg": "/static/media/wallpaperbetter.com_1366x768.54168ac3d53038788f5f.jpg",
@@ -102,11 +102,11 @@
     "index.html": "/index.html",
     "static/media/facebook_logo.svg": "/static/media/facebook_logo.5e1cb4b86ac3f872dadcbde3ed31cd4b.svg",
     "main.3d79f4ca.css.map": "/static/css/main.3d79f4ca.css.map",
-    "main.61eb26e4.js.map": "/static/js/main.61eb26e4.js.map",
+    "main.9b1c5c02.js.map": "/static/js/main.9b1c5c02.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d79f4ca.css",
-    "static/js/main.61eb26e4.js"
+    "static/js/main.9b1c5c02.js"
   ]
 }

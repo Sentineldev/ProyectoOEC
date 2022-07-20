@@ -11,16 +11,17 @@ bp = Blueprint('article', __name__,url_prefix="/article")
 @bp.route("/register_article",methods=["POST"])
 def register_article():
     try:
+        print(request.form)
         title = request.form['title']
         body = request.form['body']
         user_id = request.form['user_id']
         user = UserController().SelectUserById(user_id)
-        path = f"../client/src/user_images/{user.getUsername()}"
+        path = f"../client/build/user_images/{user.getUsername()}"
         if( not os.path.exists(path)):
             makedirs(path)
         f = request.files['image']
         path +=f"/{f.filename}"
-        f.save(f"../client/src/user_images/{user.getUsername()}/{f.filename}") 
+        f.save(f"../client/build/user_images/{user.getUsername()}/{f.filename}") 
         ArticleController().insertArticle(user_id,title, body, f.filename)
         return Response(response="Ok",status=200)
     except Exception as e:
